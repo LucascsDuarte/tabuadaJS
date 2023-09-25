@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    <title>Tabuada</title>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div>
+            <p>Qual a tabuada que deseja saber?</p>
+            <input type="number" class="form" id="num">
+
+            <p>Até que número você quer?</p>
+            <input type="number" class="form" id="end">
+            
+            <p><input type="button" value="Calcular" class="botao" onclick="tabuada()"></p>
+        </div>
+        <div id="resposta">
+            <p>Preencha os valores acima</p>
+
+        </div>
+    </section>
+
+    <script src="main.js"></script>
+</body>
+</html>
